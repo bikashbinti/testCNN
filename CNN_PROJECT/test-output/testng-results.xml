@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70851" started-at="2020-04-17T20:49:43Z" finished-at="2020-04-17T20:50:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70851" started-at="2020-04-17T20:49:43Z" finished-at="2020-04-17T20:50:54Z">
+      <class name="com.reggrassion.MarketData">
+        <test-method status="PASS" signature="setup_01()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="setup_01" is-config="true" duration-ms="26978" started-at="2020-04-17T20:49:43Z" finished-at="2020-04-17T20:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_01 -->
+        <test-method status="PASS" signature="regression_tc02()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="regression_tc02" duration-ms="30719" started-at="2020-04-17T20:50:10Z" finished-at="2020-04-17T20:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_tc02 -->
+        <test-method status="PASS" signature="regression_tc3()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="regression_tc3" duration-ms="4854" started-at="2020-04-17T20:50:41Z" depends-on-methods="com.reggrassion.MarketData.regression_tc02" finished-at="2020-04-17T20:50:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_tc3 -->
+        <test-method status="PASS" signature="regression_tc4()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="regression_tc4" duration-ms="3737" started-at="2020-04-17T20:50:46Z" depends-on-methods="com.reggrassion.MarketData.regression_tc3" finished-at="2020-04-17T20:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_tc4 -->
+        <test-method status="PASS" signature="regression_tc5()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="regression_tc5" duration-ms="2491" started-at="2020-04-17T20:50:50Z" depends-on-methods="com.reggrassion.MarketData.regression_tc4" finished-at="2020-04-17T20:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_tc5 -->
+        <test-method status="PASS" signature="regression_tc6()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="regression_tc6" duration-ms="1779" started-at="2020-04-17T20:50:52Z" depends-on-methods="com.reggrassion.MarketData.regression_tc5" finished-at="2020-04-17T20:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_tc6 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.reggrassion.MarketData@146ba0ac]" name="teardown" is-config="true" duration-ms="0" started-at="2020-04-17T20:50:54Z" finished-at="2020-04-17T20:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.reggrassion.MarketData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
